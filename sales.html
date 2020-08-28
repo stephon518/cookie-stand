@@ -1,36 +1,39 @@
+<!DOCTYPE html>
 <html>
-<head>
-  <title>Pat’s data output</title>
-  <link rel="stylesheet" href="../css/stylesales.css" />
-</head>
-<body>
-  <header>
-    <h1>Pat’s Salmon Cookies Data Output</h1>
-  </header>
-  <main>
-    <table>
-      <tbody id="table"></tbody>
-    </table>
-    <h2>Add a new Store Location</h2>
+  <head>
+    <title>Salmon Cookie Sales</title>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../css/sales.css" />
+  </head>
+  <body>
+    <div id="page">
+      <header>
+        <h1>Salmon Cookie Sales Data</h1>
+        <nav><a href="../INDEX.html">Home Page</a></nav>
+      </header>
+   <main>
     <form id="form">
       <fieldset>
-        <label> Name of New Store/Location</label>
-        <input name="storename" type="text" /><br>
-        <label>Minimum Expected Customers per hour</label>
-        <input name="mincustomer" type="text" /><br>
-        <label>Maximum Expected Customers per hour</label>
-        <input name="maxcustomer" type="text" /><br>
-        <label>Average Amount of Cookies Expected to be Purchased by Each Customer</label>
-        <input name="avgcookie" type="text" /><br>
-        <button type="submit">Submit</button>
-      </fieldset>
+        <label> Location:</label><br>
+          <input name="locationName" type="text"><br>
+        
+        <label> Minimum cookies per hour:</label><br>
+          <input name="minCookies" type="text"><br>
+        
+        <label> Maximum cookies per hour:</label><br>
+          <input name="maxCookies" type="text"><br>
+        
+        <label> Average cookies sold per customer:</label><br>
+          <input name="avgPerCustomer" type="text"><br>
+        
+      </fieldset><br>
+      <button type="submit">Show me the cookies!</button>
     </form>
-  </main>
-  <footer>
-    <form>
-      <input type="button" value="Go back!" onclick="history.back()">
-     </form>
-  </footer>
-  <script src="../js/app.js"></script>
-</body>
-</html> -->
+  <table>
+    <tbody id="table"></tbody>
+  </table>
+   </main>
+   <footer></footer>
+    <script src="../js/app.js"></script>
+  </body>
+</html>
