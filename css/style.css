@@ -1,103 +1,93 @@
+
 body {
-  font-family: sans-serif;
+
+  background-color: indianred;
+  max-width: 1200px;
+  z-index: 0;
 }
-#logo{
-  background-color: black;
-  height: 10px;
-  width: 25px;
-  padding: 11px 40px;
-  padding-top: 22px;
-  padding-bottom: 12px;
-  text-align: center;
-}
-#navigation {
-  text-align: center;
-  border: solid;
-  background-color: rgb(78, 77, 77);
-  border-color: rgb(78, 77, 77);
-  height: 50px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-size: 1.2em;
-  width: 100%;
-}
-#navigation ul li{
-  margin-left: 20px;
-  display: inline;
-  text-align: center;
-  padding: 0 20px 0 10px;
-  border: 3px;
-  color: grey;
-}
-#second-row {
-  padding-top: 50px;
-  text-align: center;
-  margin-left: 130px;
-}
-img{
-  color: black;
-}
-#second-img {
-margin-left: 30px;
-margin-right: 30px;
-}
-#third-img{
-  margin-right: 130px;
-}
-#third-row{
-  display: inline;
-}
-#last-img {
-  padding-left: 135.5px;
-  text-align: left;
-}
-#text-box {
-  padding-top: 30px;
-  width: 960px;
-  height: 350px;
-  padding-bottom: 75px;
-}
-#text-container{
-  float: right;
-  width: 300px;
-  font-style: italic;
-  overflow: auto;
-  height: 350px;
-}
-#top-picture {
-  border: solid;
-  color: black;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-}
-.text1{
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-}
-button{
-  background-color: black;
-  color: white;
-  font-size: 1em;
-  height: 35px;
-  width: 150px;
-  border-radius: 0.5ch;
-  
-  
-position: sticky;
-}
-#btn{
-  position: absolute;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
-}
-footer{
-  padding-top: 75px;
-  border-style: solid;
-  border-color: rgb(78, 77, 77);
-  height: 60px;
-  width: 100%;
-  background-color: rgb(78, 77, 77);
-}
+
+  #nav {
+      top: left;
+      height: 80px;
+      width: 80px;
+      background-color: white;
+      border: thick double black;
+      
+  }
+  #bar {
+      top: left;
+      height: 25%;
+      background-color: white;
+      background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.karenbrown.com%2Fwp-content%2Fuploads%2F2015%2F01%2Fbanner-Pacific-Northwest-Oregon-Mount-Hood-ohmygodtom-.jpg&f=1&nofb=1);
+      background-image: repeat;
+      z-index: 1;
+      float: fixed;
+      color: 
+    }
+
+  #fish {
+    top: left;
+    padding-left: 100px;
+    padding-top: 10px;
+    z-index: 3;
+  }
+
+  #plate {
+    border: thick double black;
+    background-color: tan;
+    height: 800px;
+    width: 600px;
+    /* position: relative; */
+    margin: 20px;
+    padding-block-start: 0em;
+  }
+
+  #spokesman {
+    max-height: 170px;
+    float: left;
+
+  }
+
+  #eggs {
+    border: thick double black;
+    height: 600px;
+    width:  400px;
+    /* margin: left 600px; */
+    position: absolute;
+    top: 498px;
+    left: 650px;
+    background-color: navajowhite;
+    padding: 5px;
+    
+  }
+
+  #formula {
+    height: 279px;
+    padding-left: 100px;
+  }
+
+  #aboutus {
+    height: 220px;
+    width: 1200;
+    margin-left: 40px;
+    background-color: wheat;
+    padding: 10px;
+    text-align: center;
+
+  }
+
+  h1{
+    font-family: 'Russo One', sans-serif;
+  }
+
+  #platep{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  #eggsp{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #aboutusp{
+    font-family: 'Russo One', sans-serif;
+  }
+    
+      
